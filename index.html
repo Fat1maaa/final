@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CraftRoasted Coffee</title>
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js " defer></script>
+	<link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-xrLOVMIpaAq2Aq8NQFhXTsko2hNlYPmPOClXyUpf5EkzIt5Un2FNoH1iSMwvmDL2" crossorigin="anonymous">
+
+	<script src="js/app.js" defer></script>
+</head>
+
+<body>
+
+	<div class="content">
+		<div class="btn-up btn-up__hide">
+			<div class="btn-up__arrow btn-up__1"></div>
+			<div class="btn-up__arrow btn-up__2"></div>
+		</div>
+
+		<nav class="nav-bar">
+			<div class="nav-bar__wrapper">
+
+				<img src="img/cafe-logo.jpeg" alt="logo" class="nav-bar__logo">
+
+				<ul class="nav-bar__item">
+					<div class="nav-bar__item-wrapper">
+						<li><a href="#image-carousel" class="nav-bar__link">Home</a></li>
+						<li><a href="#about" class="nav-bar__link">About</a></li>
+						<li><a href="#menu" class="nav-bar__link">Menu</a></li>
+					</div>
+					<div class="nav-bar__item-wrapper">
+						<li><a href="#review" class="nav-bar__link">Review</a></li>
+						
+						<li><a href="#contact" class="nav-bar__link">Contact</a></li>
+					</div>
+				</ul>
+
+				<div class="nav-bar__toggle" id="mobile">
+					<span class="nav-bar__bar"></span>
+					<span class="nav-bar__bar"></span>
+					<span class="nav-bar__bar"></span>
+				</div>
+			</div>
+		</nav>
+
+		<div class="home splide" id="image-carousel">
+			<div class="home__splide-track splide__track">
+
+				<ul class="home__container splide__list">
+					<li class="home__slide home__slide-1 splide__slide">
+						<div class="home__wrapper home__wrapper-1">
+							<h1 class="home__header">A Story in Every Cup</h1>
+							<p class="home__text">Discover the Finest Coffee Brews.</p>
+						</div>
+					</li>
+
+					<li class="home__slide home__slide-2 splide__slide">
+						<div class="home__wrapper home__wrapper-2">
+							<h1 class="home__header">From Farm to Cup, Integrity in Every Sip</h1>
+							<p class="home__text">Our coffee is not only a drink but also a culture..</p>
+						</div>
+					</li>
+
+					<li class="home__slide home__slide-3 splide__slide">
+						<div class="home__wrapper home__wrapper-3">
+							<h1 class="home__header">The Peak of taste: Craftroasted Coffee</h1>
+							<p class="home__text">For true coffee lovers...</p>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+
+
+		</div>
+
+		<div class="about" id="about">
+			<img src="img/design-assets1.png" alt="plant" class="about__design-img1">
+			<img src="img/design-assets2.png" alt="beans" class="about__design-img2">
+
+			<div class="about__left">
+				<h class="about__header">ABOUT<span class="about__header-span">US</span></h>
+				<img src="img/about-img.jpg" alt="about-coffee" class="about__left-img _anim-item">
+				<div class="about__left-wrapper">
+					<div class="about__left-item about__left-item1 _anim-item"></div>
+					<div class="about__left-item about__left-item2 _anim-item"></div>
+					<div class="about__left-item about__left-item3 _anim-item"></div>
+				</div>
+			</div>
+
+			<div class="about__right ">
+				<h2 class="about__right-header _anim-item">Who We Are</h2>
+				<p class="about__right-text _anim-item">Our family at CraftRoasted Coffee has been providing the best coffee in the city since it was founded by Fatima Mammadova, in 2023. His patented coffee beans are crafted to have the perfect ingredients, texture, and flavor. 
+			</div>
+		</div>
+
+		<div class="menu" id="menu">
+			<img src="img/design-assets3.png" alt="" class="menu__design-img1">
+			<img src="img/design-assets4.png" alt="" class="menu__design-img2">
+
+			<div class="menu__wrapper">
+
+				<div class="menu__item ">
+					<img src="img/menu/espresso.png" alt="espresso" class="menu__item_img">
+					<h2 class="menu__item_header">Espresso</h2>
+					<p class="menu__item_description"></p>
+					<span class="menu__item_price">$2.89</span>
+				</div>
+				<div class="menu__item ">
+					<img src="img/menu/lungo.jpg" alt="lungo" class="menu__item_img">
+					<h2 class="menu__item_header">Lungo</h2>
+					<p class="menu__item_description"></p>
+					<span class="menu__item_price">$4.50</span>
+				</div>
+				<div class="menu__item ">
+					<img src="img/menu/americano.jpg" alt="americano" class="menu__item_img">
+					<h2 class="menu__item_header">Americano</h2>
+					<p class="menu__item_description"></p>
+					<span class="menu__item_price">$3.50</span>
+				</div>
+				<div class="menu__item ">
+					<img src="img/menu/ristretto.jpg" alt="ristretto" class="menu__item_img">
+					<h2 class="menu__item_header">Ristretto</h2>
+					<p class="menu__item_description"></p>
+					<span class="menu__item_price">$3.00</span>
+				</div>
+				<div class="menu__item ">
+					<img src="img/menu/cappuccino.jpg" alt="cappuccino" class="menu__item_img">
+					<h2 class="menu__item_header">Cappuccino</h2>
+					<p class="menu__item_description"></p>
+					<span class="menu__item_price">$2.59</span>
+				</div>
+				<div class="menu__item ">
+					<img src="img/menu/latte.jpg" alt="latte" class="menu__item_img">
+					<h2 class="menu__item_header">Latte</h2>
+					<p class="menu__item_description"></p>
+					<span class="menu__item_price">$5.00</span>
+				</div>
+				<div class="menu__item ">
+					<img src="img/menu/flat-white.jpg" alt="flat white" class="menu__item_img">
+					<h2 class="menu__item_header">Flat white</h2>
+					<p class="menu__item_description"></p>
+					<span class="menu__item_price">$2.75</span>
+				</div>
+				<div class="menu__item ">
+					<img src="img/menu/cortado.jpg" alt="cortado" class="menu__item_img">
+					<h2 class="menu__item_header">Cortado</h2>
+					<p class="menu__item_description"></p>
+					<span class="menu__item_price">$4.00</span>
+				</div>
+				<div class="menu__item ">
+					<img src="img/menu/mocaccino.jpg" alt="mocaccino" class="menu__item_img">
+					<h2 class="menu__item_header">Mocaccino</h2>
+					<p class="menu__item_description"></p>
+					<span class="menu__item_price">$5.50</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="review" id="review">
+			<h1 class="review__header _anim-item">Customers<span class="review__header-span">review</span></h1>
+
+			<div class="review__wrapper splide" id="image-carousel1">
+				<div class="splide__track review__track">
+
+					<ul class="splide__list">
+						<li class="review__content splide__slide">
+							<img class="review__design-img" src="./img/design-assets5.png" alt="coffee">
+							<div class="review__author">
+								<img src="img/review-demo.jpg" alt="reviewer" class="review__author-img">
+								<span class="review__author-name">Ummbulbanu Huseynova</span>
+							</div>
+
+							<p class="review__text">Every cup of coffee I get in CraftRoasted Coffee is a really memorable experience. With every detail from the first worm to the last, this coffee brand is not just a drink but a real artwork. It is possible to feel that coffee grains are self-selected and roasted at the highest quality. With its aroma, rich taste and soft interior, it gives me energy every time and makes a good start to my day. This coffee became an indispensable part of my morning rituals and is strongly recommending to everyone!
+							</p>
+
+							<ul class="review__stars">
+								<li class="review__star fa fa-star checked"></li>
+								<li class="review__star fa fa-star checked"></li>
+								<li class="review__star fa fa-star checked"></li>
+								<li class="review__star fa fa-star checked"></li>
+								<li class="review__star fa fa-star"></li>
+							</ul>
+						</li>
+						<li class="review__content splide__slide">
+							<img class="review__design-img" src="./img/design-assets6.png" alt="coffee">
+							<div class="review__author">
+								<img src="img/review-demo2.jpg" alt="reviewer" class="review__author-img">
+								<span class="review__author-name"> Ali Haydarov</span>
+							</div>
+
+							<p class="review__text">CraftRoasted Coffee changed the true meaning of coffee for me.  When I first tried this coffee, I immediately felt the freshness of the beans and the delicate roasting process.  Its aroma is so attractive that it fascinates a person even with just one smell.  As I savor this rich and smooth taste in every cup, I discover something new every time.  This coffee has become the best moment of my working day and every time I drink this coffee I relax and get rid of the stress of the day.  CraftRoasted Coffee's customer service is also top-notch, always understanding and helping me with my needs.  I recommend everyone to try this perfect coffee!
+							</p>
+
+							<ul class="review__stars">
+								<li class="review__star fa fa-star checked"></li>
+								<li class="review__star fa fa-star checked"></li>
+								<li class="review__star fa fa-star checked"></li>
+								<li class="review__star fa fa-star checked"></li>
+								<li class="review__star fa fa-star checked"></li>
+							</ul>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+
+		
+			
+
+			
+
+			<Button class="product__button">Show more...</Button>
+
+		
+
+		<div class="contact" id="contact">
+
+			<h1 class="contact__header _anim-item">Contact<span class="contact__header-span">Us</span></h1>
+
+			<div class="contact__wrapper">
+				<div class="contact__map">
+					<iframe class="contact__map-content"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.8583936652554!2d49.8548!3d40.3765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d7c4f2b5c69%3A0x8a8a718f68b8ed91!2sBaku%2C%20Azerbaijan!5e0!3m2!1sen!2s!4v1693118762595!5m2!1sen!2s"
+    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+				</div>
+
+				<div class="contact__form">
+					<h2 class="contact__form_header">Get In Touch</h2>
+					<label class="contact__form_label">
+						Name
+						<input type="text" class="contact__form_input">
+					</label>
+					<label class="contact__form_label">
+						Email
+						<input type="text" class="contact__form_input">
+					</label>
+					<label class="contact__form_label">
+						Phone number
+						<input type="text" class="contact__form_input">
+					</label>
+					<button class="contact__form_button">Send</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+	<footer id="footer" class="footer py-4">
+		<div class="container">
+		
+			<div class="row align-items-center">
+				<div class="col-lg-4">
+					<div class="footer__copyright text-center">CraftRoasted Coffee © My Website 2023</div>
+				</div>
+				<div class="col-lg-4">
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#" class="footer__link">
+							<img src="https://cdn-icons-png.flaticon.com/128/2168/2168336.png" alt="Twitter" class="img">
+							</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">
+							<img src="https://cdn-icons-png.flaticon.com/128/2168/2168281.png" alt="Facebook" class="img">
+							</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">
+							<img src = "https://cdn-icons-png.flaticon.com/128/1384/1384014.png" class="img">
+							</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4">
+					<div class="footer__navigation text-center">
+					
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	  </div>
+			</div>
+
+		
+
+	</div>
+
+
+</body>
+
+</html>
